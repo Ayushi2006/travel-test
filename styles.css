@@ -88,11 +88,24 @@ ul {
 }
 
 .logo {
-  font-family: var(--font-heading);
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: var(--color-deep);
-  letter-spacing: 0.02em;
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 2.5vw, 2.4rem);
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: #0f2f36;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  letter-spacing: 0.08em;
+  color: #c6a75e;
+}
+.logo span {
+  font-style: italic;
+  color: #c6a75e;
+}
+.logo span:hover{
+  color:#0f2f36;
 }
 
 .nav-links {
